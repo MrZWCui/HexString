@@ -11,8 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIColor (ZWHexColor)
 
-+ (UIColor *)hexColor:(NSString *)color;
-+ (UIColor *)hexColor:(NSString *)color alpha:(CGFloat)alpha;
++ (UIColor *)HexColor:(NSString *)color;
++ (UIColor *)HexColor:(NSString *)color Alpha:(CGFloat)alpha;
 
 @end
 

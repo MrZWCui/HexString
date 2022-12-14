@@ -9,11 +9,11 @@
 
 @implementation UIColor (ZWHexColor)
 
-+ (UIColor *)hexColor:(NSString *)color {
-    return [UIColor hexColor:color alpha:1];
++ (UIColor *)HexColor:(NSString *)color {
+    return [UIColor HexColor:color Alpha:1];
 }
 
-+ (UIColor *)hexColor:(NSString *)color alpha:(CGFloat)alpha {
++ (UIColor *)HexColor:(NSString *)color Alpha:(CGFloat)alpha {
     /*
      删除字符串中的空格
      stringByTrimmingCharactersInSet作用：去掉特殊字符
